@@ -1,0 +1,149 @@
+body {
+  font-family: "Roboto", "Open Sans", sans-serif;
+  background: #1e202b;
+  color: white;
+}
+
+.header a {
+  text-decoration: none;
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 1.1428571429em;
+
+}
+
+ul {
+  display: flex;
+  text-decoration: none;
+}
+
+.header li {
+  list-style: none;
+  padding: 5px 25px;
+  font-weight: 400px;
+  margin-left: 10px;
+
+
+}
+
+.header h1 {
+  font-size: 1.1428571429em;
+  font-weight: 700px;
+  margin-bottom: 5px;
+  font-size: 1.1428571429em;
+  color: white;
+
+}
+
+.header span {
+  font-size: 0.7142857143em;
+  display: block;
+  color: #bfc1c8;
+}
+
+.menu-item {
+  border: 2px solid transparent;
+  border-radius: 30px;
+  padding: 5px 25px;
+}
+
+#search {
+  width: 100%;
+  padding: 20px 50px 20px 20px;
+  background: #1e202b;
+  color: white;
+  border-radius: 30px;
+}
+
+#submit {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  padding: 0 40px;
+  background-color: #009ad8;
+  color: white  ;
+}
+
+.main {
+  background-size: cover;
+  padding: 70px 0;
+  min-height: 350px;
+
+}
+.date{
+  background: rgba(0, 0, 0, 0.1);
+}
+.forecast-2{
+  background-color: #262936;
+}
+
+.forecast-today{
+  background-color: #323544;
+
+}
+
+.forecast-3{
+  background-color: #323544;
+}
+
+.forecast-data{
+  margin-top: -150px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  overflow:hidden;
+}
+
+.num {
+  font-size: 6.4285714286rem;
+}
+.f-content .degree{
+  font-size: 1.7142857143em;
+  color: white;
+  font-weight: 700;;
+}
+.w-condition{
+
+  color: #009ad8;
+  padding-top: 20px;
+
+}
+
+.site-footer {
+  background: #262936;
+  padding: 50px 0;
+}
+.site-footer .subscribe-form {
+  position: relative;
+  margin-bottom: 30px;
+}
+.site-footer .subscribe-form input[type="text"] {
+  padding: 20px 100px 20px 20px;
+  background: #1e202b;
+  width: 100%;
+  color: white;
+}
+.site-footer .subscribe-form input[type="submit"] {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  bottom: 5px;
+}
+.site-footer .social-links a {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  background: #1e202b;
+  color: #009ad8;
+  text-align: center;
+  line-height: 2;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  font-size: 20px;
+  font-size: 1.4285714286em;
+}
+.site-footer .social-links a:hover {
+  background: #009ad8;
+  color: white;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/28974819e6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="container p-5 ">
+            <div class="header d-flex justify-content-between ">
+                <div class="d-flex">
+                    <a href=""><img src="images/logo.png" class=" d-inline"></a>
+                    <div class="p-2">
+                        <h1 class="">Weather</h1>
+                        <span>tagline goes here</span>
+                    </div>
+                </div>
+                <div>
+                    <ul class="menu">
+                        <li class="menu-item">
+                        </li>
+
+                        <li class="menu-item">
+                            <a href="">Home</a>
+                        </li>
+
+                        <li class="menu-item">
+                            <a href="">News</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="">live cameras</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="">Photos</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="main" data-bg-image="images/banner.png" style=" background-image: url(&quot;images/banner.png&quot;)">
+        <div class="container col-md-8">
+            <form class="find-loaction position-relative">
+                <input type="text" placeholder="Find your location..." id="search">
+                <input type="button" value="Find" id="submit" class="btn rounded-pill">
+            </form>
+        </div>
+    </div>
+
+    <div class="forecast-section">
+        <div class="container">
+            <div id="forecast-data" class="forecast-data row d-flex  justify-content-between"></div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <form action="#" class="subscribe-form">
+                        <input type="text" id="search" placeholder="Enter your email to subscribe...">
+                        <input type="submit" value="Subscribe" id="submit" class="btn rounded-pill">
+                    </form>
+                </div>
+                <div class="col-md-3 col-md-offset-1">
+                    <div class="social-links">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="colophon">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </footer>
+    </div>
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
